@@ -9,3 +9,4 @@ Pre-trained [yolo3.weights](https://pjreddie.com/darknet/yolo/) file downloaded 
 
 ## Usage
 g++ detect-objects-from-webcam.cpp -o output \`pkg-config --cflags --libs opencv4\`
+./output
